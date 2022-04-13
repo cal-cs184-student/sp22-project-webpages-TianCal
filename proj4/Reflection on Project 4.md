@@ -203,7 +203,7 @@ With a higher ks, the cloth seems less soft and cannot hang vertically as the cl
               <table style="width=100%">
                   <tr>
                       <td align="middle">
-                      	<img src="imgs/5-0-2.png" width="480px" />
+                      	<img src="imgs/5_0_2.png" width="480px" />
                       	<figcaption align="middle">16x16 Bump</figcaption>
                       <td align="middle">
                       	<img src="imgs/5-0-3.png" width="480px" />
