@@ -195,7 +195,7 @@ With a higher ks, the cloth seems less soft and cannot hang vertically as the cl
 
 - Show a screenshot of your texture mapping shader using your own custom texture by modifying the textures in `/textures/`.
 
-  ![image-20220412235216250](imgs/5-0-1.png)
+  ![image-20220412235216250](imgs/5_1.png)
 
 - Show a screenshot of bump mapping on the cloth and on the sphere. Show a screenshot of displacement mapping on the sphere. Use the same texture for both renders. You can either provide your own texture or use one of the ones in the textures directory, BUT choose one that's not the default `texture_2.png`. Compare the two approaches and resulting renders in your own words. Compare how your the two shaders react to the sphere by changing the sphere mesh's coarseness by using `-o 16 -a 16` and then `-o 128 -a 128`.
 
@@ -203,7 +203,7 @@ With a higher ks, the cloth seems less soft and cannot hang vertically as the cl
               <table style="width=100%">
                   <tr>
                       <td align="middle">
-                      	<img src="imgs/5_0_2.png" width="480px" />
+                      	<img src="imgs/5_2.png" width="480px" />
                       	<figcaption align="middle">16x16 Bump</figcaption>
                       <td align="middle">
                       	<img src="imgs/5-0-3.png" width="480px" />
@@ -227,6 +227,7 @@ With a higher ks, the cloth seems less soft and cannot hang vertically as the cl
                   </tr>     
               </table>
   </div>
+
 
   Bump method  provides us with a more smooth overall shape of the sphere, while Displacement method modified the positions of vertices and made the sphere shape irregular depending on the height map.
 
